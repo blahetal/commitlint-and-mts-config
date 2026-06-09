@@ -1,0 +1,25 @@
+{
+  "name": "commitlint-and-mts-config",
+  "version": "0.0.5",
+  "private": true,
+  "description": "Knip case reproduction template - basic",
+  "homepage": "https://knip.dev",
+  "bugs": "https://github.com/webpro-nl/knip/issues",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "tsc --build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "type-check": "tsc --build --noEmit",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@types/node": "*",
+    "knip": "*",
+    "typescript": "*",
+    "@commitlint/cli": "21.0.1",
+    "@commitlint/config-conventional": "21.0.1"
+  },
+  "dependencies": {}
+}

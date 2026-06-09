@@ -1,0 +1,20 @@
+{
+  "name": "@knip/templates-basic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Knip case reproduction template - basic",
+  "homepage": "https://knip.dev",
+  "bugs": "https://github.com/webpro-nl/knip/issues",
+  "scripts": {
+    "build": "tsc --build",
+    "type-check": "tsc --build --noEmit",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "knip": "*",
+    "typescript": "*",
+    "@commitlint/cli": "21.0.1",
+    "@commitlint/config-conventional": "21.0.1"
+  }
+}

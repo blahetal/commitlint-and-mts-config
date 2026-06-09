@@ -1,0 +1,20 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "rules": {
+    "dependencies": "error",
+    "devDependencies": "error",
+    "files": "off",
+    "exports": "off",
+    "nsExports": "off",
+    "types": "off",
+    "nsTypes": "off",
+    "enumMembers": "off",
+    "namespaceMembers": "off",
+    "duplicates": "off",
+    "unresolved": "off",
+    "binaries": "off",
+    "unlisted": "off",
+    "optionalPeerDependencies": "off",
+    "catalog": "off"
+  }
+}
